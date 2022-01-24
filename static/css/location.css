@@ -116,8 +116,8 @@ body {
 
 .main-content {
     background-color: white;
-    display: flex;
-    justify-content: center;
+    display: block;
+    justify-content: space-around;
     padding: 25px 25px;
 }
 .back-img-top {
@@ -152,6 +152,7 @@ body {
     position: absolute;
     top: 150px;
     left: 35px;
+    transform: translate(0%, 1%);
 }
 .bottom {
     position: relative;
@@ -188,6 +189,74 @@ body {
     margin-top: 50px;
     border:1px solid black;
     width: 100%;
+}
+@media (max-width: 375px) {
+    .container {
+        padding: 0 15px;
+    }
+    .image {
+        display: block;
+        left: 5px;
+    }
+    #career {
+        transform: translate(5%, 1%);
+        width: 73%;
+    }
+    .upper {
+        margin: 15px 0;
+    }
+    .lower h6 {
+        font-size: 0.6rem;
+    }
+}
+    
+@media (max-width: 425px) {
+    .container {
+        padding: 0 15px;
+    }
+    .image {
+        display: block;
+        left: 25px;
+    }
+    #career {
+        transform: translate(5%, 1%);
+        width: 73%;
+    }
+    .upper {
+        margin: 15px 0;
+    }
+    .lower h6 {
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 768px) {
+    #career {
+        transform: translate(-10.5%, 1%);
+        width: 65%;
+    }
+    .top {
+        font-size: 0.7rem;
+        padding: 10px 10px;
+    }
+    .bottom {
+        font-size: 0.7rem;
+        padding: 10px 10px;
+    }
+    .upper {
+        padding: 0 10px;
+    }
+    .lower {
+        padding: 10px 0;
+        font-size: 0.8rem;
+    }
+    .lower h6 {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 1024px) {
+    #career {
+        transform: translate(-4%, 1%);
+    }
 }
 /* MAIN CONTENT STYLING ENDS HERE */
 

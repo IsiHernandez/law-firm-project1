@@ -1,6 +1,6 @@
 body {
     display: border-box;
-    background-image: url("/law-firm-project1/static/images/nza_background.jpg");
+    background-image: url("/static/images/nza_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -127,7 +127,7 @@ body {
 
 
 .left-box {
-    background-image: url("/law-firm-project1/static/images/nav_side.jpg");
+    background-image: url("/static/images/nav_side.jpg");
     background-size: cover;
     padding: 20px;
     margin-top: 40px;
