@@ -118,7 +118,7 @@
 /*** MAIN STYLES ***/
 
 body {
-    background-image: url(/law-firm-project1/static/images/nza_background.jpg);
+    background-image: url(/static/images/nza_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -132,7 +132,7 @@ body {
 /* Banner */
 
 .banner {
-    background-image: url(/law-firm-project1/static/images/nav_side_sub.jpg);
+    background-image: url(/static/images/nav_side_sub.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 16rem;
