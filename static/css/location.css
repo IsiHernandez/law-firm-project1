@@ -1,8 +1,14 @@
 * {
-    display:border-box;
-    /* background-image: url("/static/images/nza_background.jpg");
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../images/nza_background.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: no-repeat; */
+}
+.container {
+    background-color: white;
+    padding: 0 10px;
 }
 
 /* NAV STYLING STARTS HERE */
@@ -107,30 +113,81 @@
 /* NAV STYLING ENDS HERE */
 
 /* MAIN CONTENT STYLING STARTS HERE */
+
 .main-content {
+    background-color: white;
     display: flex;
-    padding: 25px 0;
+    justify-content: center;
+    padding: 25px 25px;
+}
+.back-img-top {
+    background-image: url("/static/images/nav_side_sub.jpg");
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5px;
+    max-width: 300px;
 }
 .top {
     position: absolute;
     top: 10px;
     color: white;
-    left: 26px;
+    padding: 25px 15px;
+    font-size: 0.8rem;
+    width: 80%;
+    list-style: none;
 }
-.pens {
+.top a {
+    color: inherit;
+}
+.contactline {
+    border: 1px solid white;
+    width: 100%;
+}
+#career {
+    background-image: url("/static/images/content-navlink-career.jpg");
+    background-size: cover;
+    width: 75%;
+    height: 110px;
     position: absolute;
     top: 150px;
-    left: 26px;
+    left: 35px;
 }
 .bottom {
-    position: absolute;
+    position: relative;
     color: white;
-    top: 250px;
-    padding: 0 10px;
+    top: 265px;
+    padding: 10px 25px 10px 15px;
+    font-size: 0.8rem;
+    width: 100%;
+    list-style: none;
+}
+.upper {
+    display: inline-flex;
+    padding: 0 40px;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+.lower {
+    display: flex;
+    padding: 80px 40px 0 40px;
+}
+.states p {
+    line-height: 0;
+}
+.countries p {
+    line-height: 0;
+}
+.line-left {
+    border: 1px solid black;
+}
+.line-right {
+    border: 1px solid black;
 }
 .main-end {
+    margin-top: 50px;
     border:1px solid black;
-    width: 90%;
+    width: 100%;
 }
 /* MAIN CONTENT STYLING ENDS HERE */
 
@@ -158,6 +215,14 @@ footer ul {
 }
 footer a {
     color: black;
+}
+.footer-links a {
+    color: inherit;
+}
+.copyright {
+    text-align: center;
+    color: lightgrey;
+    font-size: 12px;
 }
 hr.linebetween {
     border: 1px solid gray;

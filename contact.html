@@ -8,10 +8,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/contact.css">
   </head>
   <body>
-      <div class="container-fluid">
+      <div class="container">
       <header>
         <div class="row">
             <div class="col-10">
@@ -25,72 +25,69 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="container-fluid"> -->
             <div class="row">
                 <div class="col-12">  
                 <nav class="nav-bar">
                     <ul class="nav-links">
-                        <li class="nav-what"><a href="#">WHO WE ARE</a></li>
-                        <li class="nav-what"><a href="#">WHAT WE DO</a></li>
-                        <li class="nav-what"><a href="#">NEWS & EVENTS</a></li>
-                        <li class="nav-what"><a href="#">WHERE WE WORK</a></li>
-                        <li class="nav-contact"><a href="#">CONTACT US</a></li>
+                        <li class="nav-what"><a href="who-we-are.html">WHO WE ARE</a></li>
+                        <li class="nav-what"><a href="what-we-do.html">WHAT WE DO</a></li>
+                        <li class="nav-what"><a href="attorneys.html">ATTORNEYS</a></li>
+                        <li class="nav-what"><a href="location.html">WHERE WE WORK</a></li>
+                        <li class="nav-contact"><a href="contact.html">CONTACT US</a></li>
                     </ul>
                 </nav>
                 </div>
             </div>
-        <!-- </div> -->
       </header>
       <main>
         <div class="main-content">
-          <div class="container-left">
-              <div class="col-lg-3 col-12">
-                <img src="./static/images/nav_side_sub.jpg">
-                <div class="top">
-                  <p>CONTACT US</p>
-                  <hr>
-                  <p>Directions/Parking</p>
-                  <p>Career Opportunities</p>
+          <div class="row">
+            <!-- col-12 col-md-4 col-lg-3 and col-12 col-md-8 col-lg-9 -->
+                <div class="col-md-4 col-lg-3 left">
+                  <div class="back-img-left">
+                    <ul class="top">
+                      <a href="contact.html"><li><h5>CONTACT US</h5></li></a>
+                      <hr class="contactline">
+                      <a href=""><li>Directions/Parking</li></a>
+                      <a href=""><li>Career Opportunities</li></a>
+                    </ul>
+                    <a>
+                      <img class="pens">
+                    </a>
+                    <ul class="bottom">
+                      <li><strong>ATTORNEYS</strong></li>
+                      <a href="attorneys.html"><li>Join our magnificent firm and do more stuff with us.</li></a>
+                    </ul>
+                  </div>
                 </div>
-                <img class="pens" src="./static/images/content-navlink-news.jpg">
-                <div class="bottom">
-                  <strong>News & Events</strong>
-                  <p>Join our magnificent firm and do more stuff with us.</p>
+                <div class="col-md-4 col-lg-6 middle">
+                  <div class="contact-image"></div>
+                  <ul class="contact-text">
+                    <li>The office hours are 8am - 5pm Monday Through Friday</li>
+                    <br>
+                    <li>689 East South Street</li>
+                    <li>Suite 4210</li>
+                    <li>Houston, Texas 09324</li>
+                    <br>
+                    <li>PH: 555.555.5555</li>
+                    <li>FAX: 555.555.5555</li>
+                    <li>Contact Rosemary Sage at <a href="mailto:rosemary@lawfirm.com">rosemary@lawfirm.com</a></li>
+                  </ul>
                 </div>
-              </div>
-          </div>
-          <div class="container-center">
-              <div class="col-lg-6 col-12">
-                <img src="./static/images/content-05-contact.jpg">
-                <div class="office">
-                  <p>The office hours are 8am - 5pm Monday Through Friday</p>
-                  <br>
-                  <p>689 East South Street</p>
-                  <p>Suite 4210</p>
-                  <p>Houston, Texas 09324</p>
-                  <br>
-                  <p>PH: 555.555.5555</p>
-                  <br>
-                  <p>FAX: 555.555.5555</p>
-                  <br>
-                  <p>Contact Rosemary Sage at <a href="mailto:rosemary@lawfirm.com">rosemary@lawfirm.com</a></p>
+                <div class="col-md-4 col-lg-3 right">
+                  <div class="back-img-right">
+                    <img id="where">
+                    <ul class="where">
+                      <li><strong>Where We Work</strong></li>
+                      <a href="location.html"><li><p>Find out more about our work coverage area</p></li></a>
+                    </ul>
+                    <img id="reputation">
+                    <ul class="news">
+                        <li><strong>ATTORNEYS</strong></li>
+                        <a href="attorneys.html"><li>Join our magnificent firm and do more stuff with us.</li></a>
+                      </ul>
+                  </div>
                 </div>
-              </div>
-          </div>
-          <div class="container-right">
-              <div class="col-lg-3 col-12">
-                <img src="./static/images/other_links_background.jpg">
-                <img src="./static/images/content-link-where.jpg">
-                <div class="where">
-                  <strong>Where We Work</strong>
-                  <p>Find out more about our work coverage area</p>
-                </div>
-                <img src="./static/images/content-link-reputation.jpg">
-                <div class="news">
-                  <strong>News & Events</strong>
-                  <p>Join our magnificent firm and do more stuff with us.</p>
-                </div>
-              </div>
           </div>
         </div>
         <hr class="main-end">
@@ -98,14 +95,16 @@
       <footer>
         <div class="footer">
             <ul class="footer-links">
-                <a href=""><li>WHO WE ARE</li></a><span><hr class="linebetween"></span>
-                <a href=""><li>WHAT WE DO</li></a><span><hr class="linebetween"></span>
-                <a href=""><li>NEWS & EVENTS</li></a><span><hr class="linebetween"></span>
-                <a href=""><li>WHERE WE WORK</li></a><span><hr class="linebetween"></span>
-                <a href=""><li>CONTACT US</li></a>
+                <a href="who-we-are.html"><li>WHO WE ARE</li></a><span><hr class="linebetween"></span>
+                <a href="what-we-do.html"><li>WHAT WE DO</li></a><span><hr class="linebetween"></span>
+                <a href="attorneys.html"><li>ATTORNEYS</li></a><span><hr class="linebetween"></span>
+                <a href="location.html"><li>WHERE WE WORK</li></a><span><hr class="linebetween"></span>
+                <a href="contact.html"><li>CONTACT US</li></a>
             </ul>
         </div>
+        <p class="copyright">&#169;2018 Connor Milliken </p>
       </footer>
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
