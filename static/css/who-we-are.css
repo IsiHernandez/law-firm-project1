@@ -1,0 +1,300 @@
+body {
+    display: border-box;
+    background-image: url("/law-firm-project1/static/images/nza_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* NAV STYLING STARTS HERE */
+
+.container {
+    background-color: white;
+    padding: 0 3rem 0;
+}
+
+.logo {
+    height: 200px;
+}
+
+.logo-image {
+    padding: 80px 0px 0px 120px;
+}
+
+.login-button {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(203, 205, 207);
+    border-radius: 5px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.login-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 1.0rem;
+}
+
+.nav-bar {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-top: 5px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.nav-links li {
+    border-right: 1px solid lightslategray;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-links a {
+    color: black;
+}
+
+.nav-links .nav-contact {
+    border-right: none;
+}
+
+@media (max-width: 990px) {
+    .logo {
+        height: 100px;
+    }
+
+    .logo-image {
+        width: 100px;
+        height: 50px;
+        padding: 5px 0px 0px 5px;
+    }
+
+    .login-button {
+        display: flex;
+        width: 40px;
+        height: 20px;
+    }
+
+    .login-button a {
+        font-size: .8rem;
+        padding: 0;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .login-button a {
+        font-size: 1.5vw;
+        padding: 0;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+
+    .nav-bar {
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* NAV STYLING ENDS HERE */
+
+/* MAIN CONTENT STYLING STARTS HERE */
+
+
+.left-box {
+    background-image: url("/law-firm-project1/static/images/nav_side.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin-top: 40px;
+    max-width: 300px;
+}
+
+.who-we-are-heading {
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.left-box ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.who-we-are-list li {
+    margin-top: 12px;
+
+}
+
+.left-box a {
+    color: white;
+}
+
+
+.map-image {
+    margin-top: 10px;
+}
+
+.where-we-work-list li {
+    margin-top: 5px;
+}
+
+.right-text {
+    margin-left: 35px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.right-text p {
+    font-size: large;
+}
+
+.top-line-images {
+    margin-bottom: 30px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-line-images {
+    margin-bottom: 30px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-line-images {
+    margin-left: 35px;
+    margin-bottom: 60px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-end {
+    border: 1px solid black;
+    width: 90%;
+}
+
+@media (max-width: 1200px) {
+    .last-line-images {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 990px) {
+    .last-line-images {
+        max-width: 210px;
+    }
+}
+
+@media (max-width: 425px) {
+    .last-line-images {
+        max-width: 150px;
+    }
+}
+    
+@media (max-width: 375px) {
+    .last-line-images {
+        max-width: 100px;
+    }
+}
+
+/* MAIN CONTENT STYLING ENDS HERE */
+
+/* FOOTER STYLING STARTS HERE */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.footer-links {
+    display: inline-flex;
+    width: 70%;
+    font-size: .8em;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+    color: black;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    width: 50%;
+}
+
+footer a {
+    color: black;
+}
+
+hr.linebetween {
+    border: 1px solid gray;
+    width: 15px;
+}
+
+.copyright {
+    text-align: center;
+    color: lightgrey;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        display: flex;
+        width: 100%;
+        margin: 0 5px;
+        padding: 2px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .footer-links {
+        width: auto;
+        font-size: 2vw;
+        padding: 0;
+    }
+
+    .footer ul {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    hr.linebetween {
+        display: none;
+    }
+
+
+}
+
+/* FOOTER STYLING ENDS HERE */
