@@ -377,6 +377,10 @@ footer a {
     color: black;
 }
 
+.footer-links a {
+    color: inherit;
+}
+
 hr.linebetween {
     border: 1px solid gray;
     width: 15px;
